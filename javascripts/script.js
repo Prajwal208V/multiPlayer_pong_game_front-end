@@ -6,8 +6,8 @@ const socket = io('https://multiplayer-pingpong-game.herokuapp.com');
 let isReferee = false;
 let paddleIndex = 0;
 
-let width = 500;
-let height = 700;
+let width = 700;
+let height = 650;
 
 // Paddle
 let paddleHeight = 10;
