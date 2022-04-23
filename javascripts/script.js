@@ -51,7 +51,7 @@ function renderIntro() {
   // Intro Text
   context.fillStyle = 'white';
   context.font = "32px Courier New";
-  context.fillText("Waiting for opponent...", 20, (canvas.height / 2) - 30);
+  context.fillText("To start the game one more Player need...", 20, (canvas.height / 2) - 30);
 }
 
 // Render Everything on Canvas
