@@ -6,8 +6,8 @@ const socket = io('https://multiplayer-pingpong-game.herokuapp.com');
 let isReferee = false;
 let paddleIndex = 0;
 
-let width = 700;
-let height = 650;
+let width = 500;
+let height = 700;
 
 // Paddle
 let paddleHeight = 10;
@@ -51,7 +51,7 @@ function renderIntro() {
   // Intro Text
   context.fillStyle = 'white';
   context.font = "32px Courier New";
-  context.fillText("To start the game one more Player need...", 20, (canvas.height / 2) - 30);
+  context.fillText("Waiting for opponent...", 20, (canvas.height / 2) - 30);
 }
 
 // Render Everything on Canvas
